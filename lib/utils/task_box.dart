@@ -56,15 +56,17 @@ class Task extends StatelessWidget {
               ),
 
               //taskName
-              Text(
-                taskName,
-                style: TextStyle(
-                  decoration:
-                      taskStatus
-                          ? TextDecoration.lineThrough
-                          : TextDecoration.none,
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+              Expanded(
+                child: Text(
+                  taskName,
+                  style: TextStyle(
+                    decoration:
+                        taskStatus
+                            ? TextDecoration.lineThrough
+                            : TextDecoration.none,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
             ],

@@ -75,6 +75,7 @@ class _DoDayPageState extends State<DoDayPage> {
     return Scaffold(
       backgroundColor: Colors.yellow[200],
       floatingActionButton: FloatingActionButton(
+        elevation: 0,
         onPressed: createNewTask,
         backgroundColor: Colors.yellow[900],
         child: const Icon(Icons.add, color: Color(0xFFFFF59D)),

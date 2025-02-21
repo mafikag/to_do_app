@@ -5,6 +5,9 @@ class EventsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text("Ini Page Event")));
+    return Scaffold(
+      backgroundColor: Colors.yellow[200],
+      body: Center(child: Text("Ini page Events")),
+    );
   }
 }
